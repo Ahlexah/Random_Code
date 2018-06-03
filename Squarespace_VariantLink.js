@@ -25,4 +25,4 @@ $("#productThumbnails img").on('click', function (e) {
    if($('#productThumbnails .slide:nth-child('+index+')').length >= 0)
     $("select[data-variant-option-name='YOUR-VARIANT-HERE']")[0].selectedIndex = index;
   });
-  </script>
+</script>
