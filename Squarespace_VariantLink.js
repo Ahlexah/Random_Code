@@ -20,9 +20,9 @@ $(function(){
 });
 
 $("#productThumbnails img").on('click', function (e) {
-    $this = $(this);
-var index = $("#productThumbnails img").index($(this));
-    if($('#productThumbnails .slide:nth-child('+index+')').length >= 0)
+  $this = $(this);
+  var index = $("#productThumbnails img").index($(this));
+   if($('#productThumbnails .slide:nth-child('+index+')').length >= 0)
     $("select[data-variant-option-name='YOUR-VARIANT-HERE']")[0].selectedIndex = index;
   });
   </script>
